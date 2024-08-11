@@ -1,0 +1,107 @@
+main {
+  display: flex;
+  margin: 0px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.menu_chat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 2 25%;
+  box-shadow: -1px -1px -1px -2px #bec1bb;
+  box-sizing: border-box;
+  margin: 1px;
+}
+
+.principal {
+  font-family: "Fredoka", sans-serif;
+  display: flex;
+  flex: 3 1 75%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -2px 0 0 0 #bec1bb;
+  background-image: none;
+}
+
+.user {
+  display: flex;
+  padding: 1%;
+  margin: 1px;
+}
+
+.status_user {
+  display: flex;
+  align-items: center;
+}
+.status_user img {
+  min-width:15%;
+  min-height: 100%;
+}
+.user_button {
+  display: flex;
+  align-items: center;
+}
+
+i {
+  padding: 0.5em;
+}
+
+button {
+  display: flex;
+  background-color: #a491d2;
+  padding: 1em 4em;
+  margin: 1em 0px 1em 0px;
+  color: aliceblue;
+}
+
+.contact_display {
+  display: flex;
+  align-items: center;
+  padding: 4%;
+  box-shadow: 0 -1px 0 0 #bec1bb;
+  transition: background-color 0.3s;
+}
+
+.contact_display:hover {
+background-color: #a491d2;
+  }
+
+
+.text {
+  text-indent: 1em;
+  font-size: 0.5em;
+}
+
+h1 {
+  margin: 0%;
+  padding: 0%;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 0%;
+  padding: 0%;
+  font-size: 3em;
+}
+
+p {
+  margin: 0%;
+  padding: 0%;
+  font-size: 1.5em;
+}
+
+.text_button {
+  font-size: 1em;
+
+}
+
+.menu_chat img {
+  max-width: 15%;
+  border-radius: 50%;
+}
+.principal img {
+  max-width: 20%;
+  border-radius: 50%;
+}
